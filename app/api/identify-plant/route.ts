@@ -35,12 +35,6 @@ export async function POST(request: NextRequest) {
         },
       ],
       {
-        safetySettings: [
-          {
-            category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-            threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
-          },
-        ],
       },
     );
 
