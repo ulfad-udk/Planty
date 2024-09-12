@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import {
   GoogleGenerativeAI,
-  HarmCategory,
-  HarmBlockThreshold,
+  /*HarmCategory,
+  HarmBlockThreshold,*/
 } from "@google/generative-ai";
 
 const genAI = new GoogleGenerativeAI("AIzaSyDvrpHEvsc8Y9_PLigeZ-TaJ-nBZ52Xmxo");
