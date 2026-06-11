@@ -5,7 +5,7 @@ import {
   HarmBlockThreshold,*/
 } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("AIzaSyA6zfvFEbmfhLgXisFHdql75QDXAYBc9LE");
+const genAI = new GoogleGenerativeAI("AQ.Ab8RN6Lu75YYZ_If3Jvdw4ysOxkvpWcHHkk9dh5Vua6YxRomcQ");
 
 export async function POST(request: NextRequest) {
   const formData = await request.formData();
